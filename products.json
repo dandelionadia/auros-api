@@ -1,0 +1,18 @@
+[
+  {
+    "id": "b44bbc5f-b1b0-4e04-b207-3812597b726e",
+    "title": "Product Chair",
+    "description": "Lorem olololo",
+    "price": 45.45,
+    "images": ["q.png", "e.png", "r.png"],
+    "relatedProducts": ["384e7b73-b656-42bc-8a0c-d7081844ae21"]
+  },
+  {
+    "id": "384e7b73-b656-42bc-8a0c-d7081844ae21",
+    "title": "Pillow",
+    "description": "Lorem it is a pillow",
+    "price": 5.99,
+    "images": ["q.png", "e.png", "r.png"],
+    "relatedProducts": ["b44bbc5f-b1b0-4e04-b207-3812597b726e"]
+  }
+]
