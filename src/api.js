@@ -1,13 +1,15 @@
 const express = require("express");
-const products = require("./products.json");
+const serverless = require("serverless-http");
+const products = require("../products.json");
 
 const app = express();
+const router = express.Router();
 
-app.get("/products", (req, res) => {
+router.get("/products", (req, res) => {
   res.json(products);
 });
 
-app.get("/product/:productId", (req, res) => {
+router.get("/product/:productId", (req, res) => {
   const productId = req.params.productId;
 
   const foundProduct = products.find(product => {
@@ -21,6 +23,6 @@ app.get("/product/:productId", (req, res) => {
   res.send(foundProduct);
 });
 
-app.listen(8040, () => {
-  console.log("http://localhost:8040");
-});
+app.use("/.netlify/functions/api", router);
+
+module.exports.handler = serverless(app);
