@@ -1,18 +1,35 @@
 [
   {
     "id": "b44bbc5f-b1b0-4e04-b207-3812597b726e",
-    "title": "Product Chair",
-    "description": "Lorem olololo",
-    "price": 45.45,
+    "title": "UNA Chair",
+    "description": "Embodying the raw, wayward spirit of rock roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road. Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.",
+    "price": 102.84,
     "images": ["q.png", "e.png", "r.png"],
-    "relatedProducts": ["384e7b73-b656-42bc-8a0c-d7081844ae21"]
+    "relatedProducts": [
+      "384e7b73-b656-42bc-8a0c-d7081844ae21",
+      "abc49425-8762-4c08-9103-c2f1db6546fd"
+    ]
   },
   {
     "id": "384e7b73-b656-42bc-8a0c-d7081844ae21",
-    "title": "Pillow",
-    "description": "Lorem it is a pillow",
-    "price": 5.99,
+    "title": "Mega 2 Seater Sofa",
+    "description": "Embodying the raw, wayward spirit of rock roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road. Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.",
+    "price": 160.71,
     "images": ["q.png", "e.png", "r.png"],
-    "relatedProducts": ["b44bbc5f-b1b0-4e04-b207-3812597b726e"]
+    "relatedProducts": [
+      "b44bbc5f-b1b0-4e04-b207-3812597b726e",
+      "abc49425-8762-4c08-9103-c2f1db6546fd"
+    ]
+  },
+  {
+    "id": "abc49425-8762-4c08-9103-c2f1db6546fd",
+    "title": "Maple Light Marble",
+    "description": "Embodying the raw, wayward spirit of rock roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road. Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.",
+    "price": 174.86,
+    "images": ["q.png", "e.png", "r.png"],
+    "relatedProducts": [
+      "b44bbc5f-b1b0-4e04-b207-3812597b726e",
+      "384e7b73-b656-42bc-8a0c-d7081844ae21"
+    ]
   }
 ]
