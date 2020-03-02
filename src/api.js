@@ -1,5 +1,6 @@
 const express = require("express");
 const serverless = require("serverless-http");
+const cors = require("cors");
 const products = require("../products.json");
 
 const app = express();
@@ -23,6 +24,7 @@ router.get("/product/:productId", (req, res) => {
   res.send(foundProduct);
 });
 
+app.use(cors());
 app.use("/.netlify/functions/api", router);
 
 module.exports.handler = serverless(app);
