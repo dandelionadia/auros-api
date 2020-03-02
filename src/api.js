@@ -7,7 +7,21 @@ const app = express();
 const router = express.Router();
 
 router.get("/products", (req, res) => {
-  res.json(products);
+  const { id } = req.query;
+
+  if (!id) {
+    res.json(products).end();
+    return;
+  }
+
+  const idList = id.split(",");
+
+  const foundProducts = idList.map(productId => {
+    return products.find(product => {
+      return productId === product.id;
+    });
+  });
+  res.json(foundProducts);
 });
 
 router.get("/product/:productId", (req, res) => {
