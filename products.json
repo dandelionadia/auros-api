@@ -8,6 +8,13 @@
     "relatedProducts": [
       "384e7b73-b656-42bc-8a0c-d7081844ae21",
       "abc49425-8762-4c08-9103-c2f1db6546fd"
+    ],
+    "reviews": [
+      {
+        "name": "Duck Lord",
+        "data": "22.03.1990",
+        "review": "I am info Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+      }
     ]
   },
   {
@@ -19,6 +26,20 @@
     "relatedProducts": [
       "b44bbc5f-b1b0-4e04-b207-3812597b726e",
       "abc49425-8762-4c08-9103-c2f1db6546fd"
+    ],
+    "reviews": [
+      {
+        "name": "Cat Lord",
+        "date": "8.07.2094",
+        "rating": 2.5,
+        "text": "I am info Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "name": "Rick Lord",
+        "date": "18.08.2017",
+        "rating": 4.0,
+        "text": "I am info Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+      }
     ]
   },
   {
@@ -30,6 +51,20 @@
     "relatedProducts": [
       "b44bbc5f-b1b0-4e04-b207-3812597b726e",
       "384e7b73-b656-42bc-8a0c-d7081844ae21"
+    ],
+    "reviews": [
+      {
+        "name": "Dog Lord",
+        "date": "28.09.1994",
+        "rating": 3.5,
+        "text": "I am info Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "name": "Dazzy Lord",
+        "date": "2.03.2004",
+        "rating": 3.0,
+        "text": "I am info Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+      }
     ]
   }
 ]
