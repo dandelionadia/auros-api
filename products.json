@@ -12,8 +12,15 @@
     "reviews": [
       {
         "name": "Duck Lord",
-        "data": "22.03.1990",
-        "review": "I am info Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        "date": "5.05.1992",
+        "rating": 5.0,
+        "text": "I am info Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "name": "San Lord",
+        "date": "2.03.2004",
+        "rating": 3.0,
+        "text": "I am info Lorem ipsum, dolor sit amet consectetur adipisicing elit."
       }
     ]
   },
