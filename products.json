@@ -11,6 +11,21 @@
       "abc49425-8762-4c08-9103-c2f1db6546fd",
       "b44bbc5f-b1b0-4e04-b207-3812597b72"
     ],
+    "shopAttributes": [
+      {
+        "handleHeight": 45,
+        "width": 24,
+        "wheels": "foo",
+        "seatBackHeight": 21,
+        "headRoom": 25,
+        "weightCapacity": 60,
+        "weight": 20,
+        "fotder": 32.5,
+        "doorPassThrought": 24,
+        "frame": "aluminium",
+        "standUp": 35
+      }
+    ],
     "reviews": [
       {
         "name": "Duck Lord",
@@ -37,6 +52,21 @@
       "b44bbc5f-b1b0-4e04-b207-3812597b726e",
       "abc49425-8762-4c08-9103-c2f1db6546fd",
       "b44bbc5f-b1b0-4e04-b207-3812597b72"
+    ],
+    "shopAttributes": [
+      {
+        "handleHeight": 5,
+        "width": 4,
+        "wheels": "foo",
+        "seatBackHeight": 1,
+        "headRoom": 5,
+        "weightCapacity": 0,
+        "weight": 0,
+        "fotder": 2.5,
+        "doorPassThrought": 4,
+        "frame": "foo",
+        "standUp": 5
+      }
     ],
     "reviews": [
       {
@@ -65,6 +95,21 @@
       "384e7b73-b656-42bc-8a0c-d7081844ae21",
       "b44bbc5f-b1b0-4e04-b207-3812597b72"
     ],
+    "shopAttributes": [
+      {
+        "handleHeight": 25,
+        "width": 334,
+        "wheels": "foo",
+        "seatBackHeight": 111,
+        "headRoom": 544,
+        "weightCapacity": 550,
+        "weight": 10,
+        "fotder": 24.5,
+        "doorPassThrought": 44,
+        "frame": "foo",
+        "standUp": 45
+      }
+    ],
     "reviews": [
       {
         "name": "Dog Lord",
@@ -91,6 +136,21 @@
       "384e7b73-b656-42bc-8a0c-d7081844ae21",
       "abc49425-8762-4c08-9103-c2f1db6546fd",
       "b44bbc5f-b1b0-4e04-b207-3812597b726e"
+    ],
+    "shopAttributes": [
+      {
+        "handleHeight": 59,
+        "width": 499,
+        "wheels": "foo",
+        "seatBackHeight": 188,
+        "headRoom": 55,
+        "weightCapacity": 20,
+        "weight": 0,
+        "fotder": 22.5,
+        "doorPassThrought": 44,
+        "frame": "foo",
+        "standUp": 544
+      }
     ],
     "reviews": [
       {
