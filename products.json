@@ -13,17 +13,50 @@
     ],
     "shopAttributes": [
       {
-        "handleHeight": 45,
-        "width": 24,
-        "wheels": "foo",
-        "seatBackHeight": 21,
-        "headRoom": 25,
-        "weightCapacity": 60,
-        "weight": 20,
-        "fotder": 32.5,
-        "doorPassThrought": 24,
-        "frame": "aluminium",
-        "standUp": 35
+        "handleHeight": {
+          "title": "handleHeight",
+          "data": 45
+        },
+        "width": {
+          "title": "width",
+          "data": 40
+        },
+        "wheels": {
+          "title": "wheels",
+          "data": "foo"
+        },
+        "seatBackHeight": {
+          "title": "seatBackHeight",
+          "data": 12
+        },
+        "headRoom": {
+          "title": "headRoom",
+          "data": 12
+        },
+        "weightCapacity": {
+          "title": "weightCapacity",
+          "data": 60
+        },
+        "weight": {
+          "title": "weight",
+          "data": 30
+        },
+        "fotder": {
+          "title": "fotder",
+          "data": 30
+        },
+        "doorPassThrought": {
+          "title": "doorPassThrought",
+          "data": 30
+        },
+        "frame": {
+          "title": "frame",
+          "data": "fooo"
+        },
+        "standUp": {
+          "title": "standUp",
+          "data": "fooo"
+        }
       }
     ],
     "reviews": [
@@ -55,17 +88,50 @@
     ],
     "shopAttributes": [
       {
-        "handleHeight": 5,
-        "width": 4,
-        "wheels": "foo",
-        "seatBackHeight": 1,
-        "headRoom": 5,
-        "weightCapacity": 0,
-        "weight": 0,
-        "fotder": 2.5,
-        "doorPassThrought": 4,
-        "frame": "foo",
-        "standUp": 5
+        "handleHeight": {
+          "title": "handleHeight",
+          "data": 2
+        },
+        "width": {
+          "title": "width",
+          "data": 2
+        },
+        "wheels": {
+          "title": "wheels",
+          "data": "foo"
+        },
+        "seatBackHeight": {
+          "title": "seatBackHeight",
+          "data": 2
+        },
+        "headRoom": {
+          "title": "headRoom",
+          "data": 2
+        },
+        "weightCapacity": {
+          "title": "weightCapacity",
+          "data": 2
+        },
+        "weight": {
+          "title": "weight",
+          "data": 2
+        },
+        "fotder": {
+          "title": "fotder",
+          "data": 2
+        },
+        "doorPassThrought": {
+          "title": "doorPassThrought",
+          "data": 2
+        },
+        "frame": {
+          "title": "frame",
+          "data": "fooo"
+        },
+        "standUp": {
+          "title": "standUp",
+          "data": "fooo"
+        }
       }
     ],
     "reviews": [
@@ -97,17 +163,50 @@
     ],
     "shopAttributes": [
       {
-        "handleHeight": 25,
-        "width": 334,
-        "wheels": "foo",
-        "seatBackHeight": 111,
-        "headRoom": 544,
-        "weightCapacity": 550,
-        "weight": 10,
-        "fotder": 24.5,
-        "doorPassThrought": 44,
-        "frame": "foo",
-        "standUp": 45
+        "handleHeight": {
+          "title": "handleHeight",
+          "data": 3
+        },
+        "width": {
+          "title": "width",
+          "data": 3
+        },
+        "wheels": {
+          "title": "wheels",
+          "data": "foo"
+        },
+        "seatBackHeight": {
+          "title": "seatBackHeight",
+          "data": 3
+        },
+        "headRoom": {
+          "title": "headRoom",
+          "data": 3
+        },
+        "weightCapacity": {
+          "title": "weightCapacity",
+          "data": 3
+        },
+        "weight": {
+          "title": "weight",
+          "data": 3
+        },
+        "fotder": {
+          "title": "fotder",
+          "data": 3
+        },
+        "doorPassThrought": {
+          "title": "doorPassThrought",
+          "data": 3
+        },
+        "frame": {
+          "title": "frame",
+          "data": "fooo"
+        },
+        "standUp": {
+          "title": "standUp",
+          "data": "fooo"
+        }
       }
     ],
     "reviews": [
@@ -139,17 +238,50 @@
     ],
     "shopAttributes": [
       {
-        "handleHeight": 59,
-        "width": 499,
-        "wheels": "foo",
-        "seatBackHeight": 188,
-        "headRoom": 55,
-        "weightCapacity": 20,
-        "weight": 0,
-        "fotder": 22.5,
-        "doorPassThrought": 44,
-        "frame": "foo",
-        "standUp": 544
+        "handleHeight": {
+          "title": "handleHeight",
+          "data": 4
+        },
+        "width": {
+          "title": "width",
+          "data": 4
+        },
+        "wheels": {
+          "title": "wheels",
+          "data": "foo"
+        },
+        "seatBackHeight": {
+          "title": "seatBackHeight",
+          "data": 4
+        },
+        "headRoom": {
+          "title": "headRoom",
+          "data": 4
+        },
+        "weightCapacity": {
+          "title": "weightCapacity",
+          "data": 4
+        },
+        "weight": {
+          "title": "weight",
+          "data": 4
+        },
+        "fotder": {
+          "title": "fotder",
+          "data": 4
+        },
+        "doorPassThrought": {
+          "title": "doorPassThrought",
+          "data": 4
+        },
+        "frame": {
+          "title": "frame",
+          "data": "fooo"
+        },
+        "standUp": {
+          "title": "standUp",
+          "data": "fooo"
+        }
       }
     ],
     "reviews": [
