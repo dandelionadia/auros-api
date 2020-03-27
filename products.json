@@ -9,7 +9,8 @@
     "relatedProducts": [
       "384e7b73-b656-42bc-8a0c-d7081844ae21",
       "abc49425-8762-4c08-9103-c2f1db6546fd",
-      "b44bbc5f-b1b0-4e04-b207-3812597b72"
+      "b44bbc5f-b1b0-4e04-b207-3812597b72",
+      "c9089876-b68c-455a-9b0c-c9dc3bca5877"
     ],
     "shopAttributes": [
       {
@@ -82,7 +83,8 @@
     "relatedProducts": [
       "b44bbc5f-b1b0-4e04-b207-3812597b726e",
       "abc49425-8762-4c08-9103-c2f1db6546fd",
-      "b44bbc5f-b1b0-4e04-b207-3812597b72"
+      "b44bbc5f-b1b0-4e04-b207-3812597b72",
+      "c9089876-b68c-455a-9b0c-c9dc3bca5877"
     ],
     "shopAttributes": [
       {
@@ -143,7 +145,8 @@
     "relatedProducts": [
       "b44bbc5f-b1b0-4e04-b207-3812597b726e",
       "384e7b73-b656-42bc-8a0c-d7081844ae21",
-      "b44bbc5f-b1b0-4e04-b207-3812597b72"
+      "b44bbc5f-b1b0-4e04-b207-3812597b72",
+      "c9089876-b68c-455a-9b0c-c9dc3bca5877"
     ],
     "shopAttributes": [
       {
@@ -204,7 +207,8 @@
     "relatedProducts": [
       "384e7b73-b656-42bc-8a0c-d7081844ae21",
       "abc49425-8762-4c08-9103-c2f1db6546fd",
-      "b44bbc5f-b1b0-4e04-b207-3812597b726e"
+      "b44bbc5f-b1b0-4e04-b207-3812597b726e",
+      "c9089876-b68c-455a-9b0c-c9dc3bca5877"
     ],
     "shopAttributes": [
       {
@@ -239,6 +243,80 @@
         "name": "Soup Lord",
         "date": "5.09.2204",
         "rating": 5.0,
+        "text": "I am info Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+      }
+    ]
+  },
+  {
+    "id": "c9089876-b68c-455a-9b0c-c9dc3bca5877",
+    "title": "UNA Chair",
+    "description": "Where does it come from? Embodying the raw, wayward spirit of rock roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road. Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.",
+    "rating": 4.0,
+    "price": 1092.84,
+    "images": ["q.png", "e.png", "r.png"],
+    "relatedProducts": [
+      "b44bbc5f-b1b0-4e04-b207-3812597b726e",
+      "384e7b73-b656-42bc-8a0c-d7081844ae21",
+      "abc49425-8762-4c08-9103-c2f1db6546fd",
+      "b44bbc5f-b1b0-4e04-b207-3812597b72"
+    ],
+    "shopAttributes": [
+      {
+        "title": "handleHeight",
+        "data": 5
+      },
+      {
+        "title": "width",
+        "data": 5
+      },
+      {
+        "title": "wheels",
+        "data": "foo"
+      },
+      {
+        "title": "seatBackHeight",
+        "data": 5
+      },
+      {
+        "title": "headRoom",
+        "data": 5
+      },
+      {
+        "title": "weightCapacity",
+        "data": 5
+      },
+      {
+        "title": "weight",
+        "data": 50
+      },
+      {
+        "title": "fotder",
+        "data": 50
+      },
+      {
+        "title": "doorPassThrought",
+        "data": 30
+      },
+      {
+        "title": "frame",
+        "data": "fooo"
+      },
+      {
+        "title": "standUp",
+        "data": "fooo"
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Left Lord",
+        "date": "5.05.1992",
+        "rating": 2.0,
+        "text": "I am info Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "name": "Top Lord",
+        "date": "2.03.2004",
+        "rating": 4.0,
         "text": "I am info Lorem ipsum, dolor sit amet consectetur adipisicing elit."
       }
     ]
