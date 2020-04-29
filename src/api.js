@@ -8,15 +8,6 @@ const products = require("../products.json");
 const app = express();
 const router = express.Router();
 
-const resolveImages = (product) => {
-  return {
-    ...product,
-    images: product.images.map((image) => {
-      return `https://auros-api.netlify.app/.netlify/functions/api/product/${product.id}/images/${image}`;
-    }),
-  };
-};
-
 router.get("/products", (req, res) => {
   const { id } = req.query;
 
@@ -33,7 +24,7 @@ router.get("/products", (req, res) => {
     });
   });
 
-  res.json(foundProducts.map(resolveImages));
+  res.json(foundProducts);
 });
 
 router.get("/product/:productId", (req, res) => {
@@ -47,27 +38,7 @@ router.get("/product/:productId", (req, res) => {
     return res.status(404).end();
   }
 
-  res.send(resolveImages(foundProduct));
-});
-
-router.get("/product/:productId/images/:imageName", (req, res) => {
-  const { productId, imageName } = req.params;
-
-  console.log("in the route");
-
-  fs.readFile(
-    path.resolve(`static/images/${productId}/${imageName}`),
-    (error, image) => {
-      console.log("Read an image!");
-
-      if (error) {
-        console.log(error);
-        return res.status(404);
-      }
-
-      res.send(Buffer.from(image));
-    }
-  );
+  res.send(foundProduct);
 });
 
 app.use(cors());
