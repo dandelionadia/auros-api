@@ -33,7 +33,7 @@ router.get("/products", (req, res) => {
     });
   });
 
-  res.json(foundProducts);
+  res.json(foundProducts.map(resolveImages));
 });
 
 router.get("/product/:productId", (req, res) => {
@@ -53,19 +53,24 @@ router.get("/product/:productId", (req, res) => {
 router.get("/product/:productId/images/:imageName", (req, res) => {
   const { productId, imageName } = req.params;
 
-  const image = fs.readFileSync(
-    path.resolve(`static/images/${productId}/${imageName}`)
-  );
+  console.log("in the route");
 
-  res.send(Buffer.from(image));
+  fs.readFile(
+    path.resolve(`static/images/${productId}/${imageName}`),
+    (error, image) => {
+      console.log("Read an image!");
+
+      if (error) {
+        console.log(error);
+        return res.status(404);
+      }
+
+      res.send(Buffer.from(image));
+    }
+  );
 });
 
 app.use(cors());
 app.use("/.netlify/functions/api", router);
 
-app.get("/.netlify/functions/files", (req, res) => {
-  res.send("hello to you, handsome");
-});
-
-module.exports = app;
 module.exports.handler = serverless(app);
